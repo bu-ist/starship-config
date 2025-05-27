@@ -1208,7 +1208,6 @@ time starship module nodejs
 
 ### BU IST Resources
 
-- **Internal Wiki**: https://wiki.bu.edu/ist/dev-setup
 - **Slack Channel**: #dev-tools
 - **Configuration Repository**: https://github.com/bu-ist/starship-config
 - **Issue Tracking**: https://github.com/bu-ist/starship-config/issues
