@@ -124,20 +124,10 @@ detect_files = ["docker-compose.yml", "docker-compose.yaml", "Dockerfile"]
 format = 'on [☁️ ($profile )(\($region\) )]($style)'
 style = "bold blue"
 symbol = "☁️ "
-# Only show when working with AWS files or when profile is explicitly set
-detect_files = [
-    'serverless.yml',
-    'cloudformation.yml',
-    '.aws-sam',
-    'terraform.tf',
-    'main.tf',
-    'cdk.json'
-]
 
 [kubernetes]
 format = 'on [⛵ ($user on )($cluster in )$context \($namespace\)](dimmed green) '
 disabled = false
-detect_files = ['k8s', 'kubernetes', 'kustomization.yaml']
 
 # ============================================================================
 # SYSTEM INFO (MINIMAL)
