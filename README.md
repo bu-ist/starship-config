@@ -36,7 +36,7 @@ Starship is a cross-shell prompt written in Rust. This configuration provides co
 
 ```bash
 # Download and run our installation script
-curl -fsSL https://raw.githubusercontent.com/bu-ist/starship-config/blob/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bu-ist/starship-config/main/install.sh | bash
 ```
 
 ### Manual Installation
