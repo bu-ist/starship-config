@@ -1,0 +1,56 @@
+# Minimal Starship Configuration
+# For users who prefer essential information only
+
+add_newline = true
+command_timeout = 1000
+
+format = """
+$directory\
+$git_branch\
+$git_status\
+$character"""
+
+[character]
+success_symbol = "[➤](bold green)"
+error_symbol = "[➤](bold red)"
+
+[directory]
+truncation_length = 2
+style = "bold blue"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+symbol = " "
+style = "bold purple"
+
+[git_status]
+format = '[$all_status]($style)'
+style = "bold red"
+conflicted = "⚡"
+ahead = "⇡"
+behind = "⇣"
+diverged = "⇕"
+untracked = "?"
+stashed = "📦"
+modified = "!"
+staged = "+"
+deleted = "✘"
+
+# Disable all other modules
+[nodejs]
+disabled = true
+
+[php]
+disabled = true
+
+[python]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[aws]
+disabled = true
+
+[cmd_duration]
+disabled = true
