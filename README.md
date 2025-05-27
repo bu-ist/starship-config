@@ -96,22 +96,6 @@ source ~/.zshrc
 - **Zoxide integration** for smart directory jumping
 - **Auto-completion enhancements**
 
-## 📁 Repository Structure
-
-```
-starship-config/
-├── README.md                    # This file
-├── TEAM_GUIDE.md               # Technical documentation
-├── install.sh                   # Automated installation script
-├── starship.toml               # Starship configuration
-├── .zshrc                      # Optimized Zsh configuration
-├── fonts/
-│   └── install-fonts.sh       # Font installation script
-└── examples/
-    ├── minimal.toml            # Minimal configuration
-    └── advanced.toml           # Advanced configuration
-```
-
 ## ⚙️ Configuration Details
 
 ### Starship Modules (Enabled)
