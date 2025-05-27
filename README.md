@@ -93,9 +93,9 @@ starship-config/
 
 ## 🎨 Customization
 
-### Team Standard Configuration
+### Standard Configuration
 
-The provided `starship.toml` is our team standard. It balances information density with performance and visual clarity.
+The provided `starship.toml` is a standard configuration. It balances information density with performance and visual clarity.
 
 ### Personal Customizations
 
