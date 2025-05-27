@@ -34,8 +34,16 @@ Starship is a cross-shell prompt written in Rust. This configuration provides co
 
 ### Automated Installation (Recommended)
 
+**Option 1: Interactive Installation**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bu-ist/starship-config/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bu-ist/starship-config/main/install.sh > /tmp/install-starship.sh
+chmod +x /tmp/install-starship.sh
+/tmp/install-starship.sh
+```
+
+**Option 2: One-Command Installation**
+```bash
+echo "1" | curl -fsSL https://raw.githubusercontent.com/bu-ist/starship-config/main/install.sh | bash
 ```
 
 **What this does:**
@@ -44,6 +52,8 @@ curl -fsSL https://raw.githubusercontent.com/bu-ist/starship-config/main/install
 3. Installs productivity tools (fzf, zoxide, bat, exa, htop)
 4. Downloads optimized configurations
 5. Sets up shell integration
+
+**Note**: Option 1 allows you to choose how to handle your existing .zshrc. Option 2 automatically replaces it with the BU IS&T configuration.
 
 ### Manual Installation
 
@@ -209,6 +219,20 @@ Then configure your terminal:
 3. Restart shell: `source ~/.zshrc`
 
 ### Installation Issues
+**Problem**: Installer doesn't respond to input when using the one-command method
+
+**Solution**: Use the interactive installation method instead:
+```bash
+curl -fsSL https://raw.githubusercontent.com/bu-ist/starship-config/main/install.sh > /tmp/install-starship.sh
+chmod +x /tmp/install-starship.sh
+/tmp/install-starship.sh
+```
+
+**Alternative**: Use the pre-answered version:
+```bash
+echo "1" | curl -fsSL https://raw.githubusercontent.com/bu-ist/starship-config/main/install.sh | bash
+```
+
 If the automated installer doesn't work:
 1. Check internet connection
 2. Verify GitHub repository access
