@@ -1,4 +1,4 @@
-# BU I&ST Starship Configuration
+# BU IS&T Starship Configuration
 
 Terminal prompt configuration for PHP, JavaScript, and Python development with server management tools.
 
